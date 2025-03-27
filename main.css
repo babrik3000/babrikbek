@@ -1,0 +1,414 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .container {
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .burger {
+    padding: 20px;
+    background-image: url("./images/Ellipse\ 1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+  }
+  
+  .burger-box{
+    margin-bottom: 10%;
+  }
+  
+  .burger-logo-img {
+    display: flex;
+    margin: auto;
+  }
+  
+  .burger-box-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .burger-box-text {
+    color: white;
+  }
+  
+  .burger-box-text h1 {
+    font-size: 50px;
+    max-width: 430px;
+    line-height: 60px;
+  }
+  
+  .burger-logo-bg-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .burger-box-text h1 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 660px) {
+    .burger-box-text h1 {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .burger-box-text h1 {
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .burger-box-logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  
+    }
+    .burger-box-text{
+      position: absolute;
+      top: 100px;
+    }
+  
+    .logo-box-img{
+      margin-top: 200px;
+    }
+  
+  }
+
+
+
+  .jojo {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .burger-scrol-ul{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+  
+    padding: 0px;
+    overflow-x: scroll;
+    /* overflow-y: hidden; */
+  }
+  
+  .burger-scrol-li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    padding: 5px 10px;
+  }
+
+.burger-scrol-ul :hover{
+  color: black;
+  transform: scale(1.1);
+}
+
+.burger-scrol-ul :active {
+  
+}
+  
+  
+  .burger-scrol-li:nth-child(1){
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #FFAB08;
+  }
+
+
+
+.burger-main {
+  box-shadow: 1px 1px 6px gray;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.burger-korzinka-text-first{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.burger-menu-li{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(228, 228, 228); 
+  border-bottom: 1px solid rgb(228, 228, 228);
+  margin-bottom: 20px;
+  height: 100px;
+  align-items: center;
+}
+
+.burger-menu-li-box-img {
+  min-width: 100px;
+}
+
+.burger-menu-li-box{
+  display: flex;
+  align-items: center;
+}
+
+.burger-menu-li-box-text p{ 
+  margin: 0px;
+}
+
+.burger-menu-li-box-text { 
+  padding-left: 0%;
+  line-height: normal;
+}
+
+.burger-menu-ul {
+  padding: 0px;
+}
+
+.burger-menu-li-box-btn{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f3;
+  border-radius: 15px;
+  margin-right: 1%;
+  
+}
+
+.burger-menu-li-box-btn button {
+  border: 0px;
+  background-color: #f2f2f3;
+  padding: 0px 17px;
+  font-style: 24px;
+}
+
+.burger-menu-li-box-btn p {
+  margin: 10px 0px;
+}
+
+.burger-menu-li-box-small {
+  color: gray;
+  padding-bottom: 5px;
+}
+
+.burger-korzinka-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger-main-box button {
+  width: 268px;
+  height: 40px;
+  background-color: #ff7020;
+  border: 0px;
+  border-radius: 10px;
+  color: #f2f2f3;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.amoma:hover {
+  background-color: darkorange;
+}
+.amoma:active {
+  background-color: goldenrod;
+  font-size: 15px;
+
+}
+
+.burger-main-itogo-box{
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.afruzhorosh {
+  
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.сочные-бургеры {
+  margin: 10px;
+  list-style-type: none;
+}
+
+.сочные-бургеры h3,p {
+  margin: 0px; 
+}
+
+.сочные-бургеры h4 {
+  color: gray
+}
+
+
+
+.aboba:hover {
+  background-color:rgb(247, 239, 231)
+}
+.aboba:active {
+  background-color: rgba(160, 157, 155, 0.622);
+  font-size: 15px;
+}
+
+.aboba {
+  width: 240px;
+  height: 40px;
+  background-color: rgb(206, 196, 196);
+  border: 0px;
+  border-radius: 10px;
+  color: black;
+}
+
+
+
+
+.afruz img {
+  width: 240px;
+  height: 190px;
+}
+
+@media screen and (max-width: 928px) {
+  .afruz img{
+    width: 210px;
+    height: 160px;
+  }
+}
+@media screen and (max-width: 928px) {
+  .aboba {
+    width: 210px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 868px) {
+  .afruz img{
+    width: 180px;
+    height: 130px;
+  }
+}
+@media screen and (max-width: 868px) {
+  .aboba {
+    width: 180px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 808px) {
+  .afruz img{
+    width: 155px;
+    height: 110px;
+  }
+}
+@media screen and (max-width: 808px) {
+  .aboba {
+    width: 155px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .afruz img{
+    width: 190px;
+    height: 140px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .aboba {
+    width: 190px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .jojo {
+    display: block;
+  }
+}
+@media screen and (max-width: 710px) {
+  .afruz img{
+    width: 170px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .aboba {
+    width: 170px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .afruz img{
+    width: 145px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .aboba{
+    width: 145px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .afruz img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 575px) {
+  .afruz img{
+    width: 135px;
+    height: 95px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .aboba{
+    width: 135px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .afruzhorosh {
+    align-items: center;
+  }
+}
+
+.justify-content-between {
+  justify-content: space-between ;
+}
+
+.d-flex {
+  display: flex ;
+}
+
+.footer-box-three {
+  width: 45%;
+}
+
+.footer-box-first-h4 {
+  margin: 25px;
+}
+
